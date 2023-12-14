@@ -10,7 +10,6 @@ class CryptoCurrenciesListApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "CryptoCurrenciesList",
-      theme: darkTheme,
       routes: routes,
     );
   }

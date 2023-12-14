@@ -1,7 +1,8 @@
-import 'package:cryptocoins_app/features/crypto_list/crypto_list.dart';
-import 'package:cryptocoins_app/features/crypto_coin/crypto_coin.dart';
+
+
+import 'package:cryptocoins_app/features/login_page/login_page.dart';
 
 final routes = {
-  '/': (context) => const CryptoListScreen(),
-  '/coin': (context) => const CryptoCoinScreen()
+    '/': (context) =>  LoginPage(),
+
 };
